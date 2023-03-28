@@ -5,7 +5,7 @@
 
 2. 테마, 아이콘 테마 설치
 - plugin에서 material 검색
-- Atom material icon, Material Theme UI
+[- Atom material]() icon, Material Theme UI
     - 테마 적용하기
     - 파일 -> 설정 -> 테마 검색 후 -> 모양 탭에서 테마 선탣
   
