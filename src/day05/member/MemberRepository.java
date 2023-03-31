@@ -53,6 +53,10 @@ public class MemberRepository {
         return false;
     }
 
+    //마지막 회원의 번호를 알려주는 기능
+    int getLastMemberId(){
+        return memberList[memberList.length - 1].memberId;
+    }
 
 
 }
