@@ -1,7 +1,8 @@
 package day05.member;
 
 import static day05.member.Gender.MALE;
-
+//역할: 1명의 회원정보를 묶어주는 역할
+//Java Bean(VO)
 public class Member {
 
     String email;
