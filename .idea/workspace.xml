@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java array">
+    <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java quiz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/lotto/Lotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/lotto/Lotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/lotto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/lotto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/util/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/util/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,29 +60,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="day07.lotto" />
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day06.encap.Main">
+  <component name="RunManager" selected="애플리케이션.day07.lotto.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.array.Main" />
+      <option name="MAIN_CLASS_NAME" value="day07.static_.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.member.Test" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day05.member.*" />
+          <option name="PATTERN" value="day07.static_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,19 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day05.player.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.player.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day05.player.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="day06.encap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day06.encap.Main" />
       <module name="java_basic" />
@@ -126,13 +104,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day07.inherit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.inherit.Main" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.inherit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day07.lotto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day07.lotto.Main" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07.lotto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day07.lotto.Main" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.day07.inherit.Main" />
         <item itemvalue="애플리케이션.day06.encap.Main" />
         <item itemvalue="애플리케이션.day05.member.Main" />
-        <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.day05.player.Main" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +198,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680503467663</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="java array">
+      <created>1680508953743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680508953743</updated>
+    </task>
+    <task id="LOCAL-00009" summary="java inherit">
+      <created>1680574960911</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680574960911</updated>
+    </task>
+    <task id="LOCAL-00010" summary="java inherit">
+      <created>1680585616948</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680585616948</updated>
+    </task>
+    <task id="LOCAL-00011" summary="java quiz">
+      <created>1680590707234</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680590707234</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +246,9 @@
     <MESSAGE value="java this" />
     <MESSAGE value="java method" />
     <MESSAGE value="java array" />
-    <option name="LAST_COMMIT_MESSAGE" value="java array" />
+    <MESSAGE value="java inherit" />
+    <MESSAGE value="java quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="java quiz" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Lotto {
 
 
-    public static void information() {
+    public static int[] information() {
         int[] lottoArr = new int[6];
         for (int i = 0; i < lottoArr.length; i++) {
             lottoArr[i] = (int)(Math.random()*45) + 1;
@@ -15,6 +15,7 @@ public class Lotto {
                 }
             }
         }
-        System.out.println(Arrays.toString(lottoArr));
+//        System.out.println(Arrays.toString(lottoArr));
+        return lottoArr;
     }
 }
