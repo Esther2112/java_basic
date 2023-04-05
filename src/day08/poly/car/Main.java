@@ -14,5 +14,20 @@ public class Main {
 
         Driver park = new Driver();
         park.drive(new Stinger());
+
+        makeLine();
+
+        Mustang mustang = new Mustang();
+        mustang.accelerate();
+        mustang.powerSound();
+
+        Car car = shop.exportCar(6000);
+
+        if (car instanceof Mustang) {
+            Mustang car1 = (Mustang) car;
+            mustang.accelerate();
+            car1.powerSound();
+        }
+
     }
 }
