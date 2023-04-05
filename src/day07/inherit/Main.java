@@ -7,9 +7,15 @@ public class Main {
         Hunter h = new Hunter("욕설왕퍼킹");
 
 
-        w.showStatus();
-        m.showStatus();
-        h.showStatus();
+//        w.showStatus();
+//        m.showStatus();
+//        h.showStatus();
 
+        Player[] players = {
+                w, m, h,
+                new Warrior("요리왕쿠킹")
+        };
+
+        m.thunderBolt(w, h, m, new Warrior("딸긔겅듀"), new Mage("다른 mage"));
     }
 }
