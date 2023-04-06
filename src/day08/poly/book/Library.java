@@ -131,29 +131,30 @@ public class Library {
         Book[] bookList = getBookList();
         Book target = bookList[indexToBorrow];
 
+        target.borrowBook(user);
         //나이제한검사
-        if (target instanceof CartoonBook) {
-            boolean ageFlag = ageCheck((CartoonBook) target, user);
-            if (ageFlag) {
-                System.out.printf("# %s 책이 성공적으로 대여되었습니다.\n", target);
-            } else {
-                System.out.print("# 연령제한으로 대여가 불가합니다.");
-            }
-        }
+//        if (target instanceof CartoonBook) {
+//            boolean ageFlag = ageCheck((CartoonBook) target, user);
+//            if (ageFlag) {
+//                System.out.printf("# %s 책이 성공적으로 대여되었습니다.\n", target);
+//            } else {
+//                System.out.print("# 연령제한으로 대여가 불가합니다.");
+//            }
+//        }
         //쿠폰처리
-        if (target instanceof CookBook) {
-            System.out.printf("# %s 책이 성공적으로 대여되었습니다. ", target.getTitle());
-            boolean couponFlag = ((CookBook) target).isCoupon();
-            if (couponFlag) {
-                user.setCouponCount(user.getCouponCount() + 1);
-                System.out.println("요리학원 쿠폰이 발급되었으니 마이페이지에서 확인하세요");
-            }
-        }
+//        if (target instanceof CookBook) {
+//            System.out.printf("# %s 책이 성공적으로 대여되었습니다. ", target.getTitle());
+//            boolean couponFlag = ((CookBook) target).isCoupon();
+//            if (couponFlag) {
+//                user.setCouponCount(user.getCouponCount() + 1);
+//                System.out.println("요리학원 쿠폰이 발급되었으니 마이페이지에서 확인하세요");
+//            }
+//        }
     }
 
-    public boolean ageCheck(CartoonBook book, BookUser user) {
-        return book.getAccessAge() < user.getAge();
-    }
+//    public boolean ageCheck(CartoonBook book, BookUser user) {
+//        return book.getAccessAge() < user.getAge();
+//    }
 
     public void serviceMenu() {
         BookUser user = login();
