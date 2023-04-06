@@ -14,5 +14,8 @@ public class Main {
         for (Pet pet : pets) {
             pet.eat();
         }
+
+//        추상클래스는 객체를 생성할 수 없다
+//        Pet newPet = new Pet();
     }
 }
