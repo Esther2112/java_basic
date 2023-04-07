@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java PlayListQuiz">
+    <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java PlayListQuiz code revised">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day09/quiz2/PlayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/quiz2/PlayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +62,18 @@
       <recent name="day07.lotto" />
       <recent name="day05.member" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day10.collection.list" />
+      <recent name="day10.generic" />
+    </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day09.quiz2.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.quiz.Main" />
+  <component name="RunManager" selected="애플리케이션.MapExample">
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.quiz.*" />
+          <option name="PATTERN" value="day10.collection.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.poly.book.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.poly.book.Main" />
+    <configuration name="ListSearchQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListSearchQuiz" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.poly.book.*" />
+          <option name="PATTERN" value="day10.collection.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.poly.car.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.poly.car.Main" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.map.MapExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.poly.car.*" />
+          <option name="PATTERN" value="day10.collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day09.abs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.abs.Main" />
+    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.set.SetExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.abs.*" />
+          <option name="PATTERN" value="day10.collection.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day09.quiz2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.quiz2.Main" />
+    <configuration name="ThrowsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.ThrowsMain" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.quiz2.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.day09.quiz2.Main" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.day08.poly.book.Main" />
-        <item itemvalue="애플리케이션.day09.abs.Main" />
-        <item itemvalue="애플리케이션.day08.poly.car.Main" />
+        <item itemvalue="애플리케이션.MapExample" />
+        <item itemvalue="애플리케이션.SetExample" />
+        <item itemvalue="애플리케이션.ListSearchQuiz" />
+        <item itemvalue="애플리케이션.ListExample" />
+        <item itemvalue="애플리케이션.ThrowsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680768750981</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="java PlayListQuiz code revised">
+      <created>1680826769622</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680826769622</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +304,8 @@
     <MESSAGE value="java abstract" />
     <MESSAGE value="java BookQuiz code revised" />
     <MESSAGE value="java PlayListQuiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="java PlayListQuiz" />
+    <MESSAGE value="java PlayListQuiz code revised" />
+    <option name="LAST_COMMIT_MESSAGE" value="java PlayListQuiz code revised" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
