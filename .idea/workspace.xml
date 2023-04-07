@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java Collection">
+    <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java PlayListQuiz code revised">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,14 +278,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680826769622</updated>
     </task>
-    <task id="LOCAL-00019" summary="java Collection">
-      <created>1680847780853</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1680847780853</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,8 +305,7 @@
     <MESSAGE value="java BookQuiz code revised" />
     <MESSAGE value="java PlayListQuiz" />
     <MESSAGE value="java PlayListQuiz code revised" />
-    <MESSAGE value="java Collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="java Collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="java PlayListQuiz code revised" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
