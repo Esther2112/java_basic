@@ -95,20 +95,22 @@ public class PlayList {
             System.out.println("# 3. 프로그램 종료");
             System.out.println("==============================");
             System.out.print(">> ");
-            int select = sc.nextInt();
-            sc.nextLine();
+            String select = sc.nextLine();
             switch (select) {
-                case 1:
+                case "1":
                     addSong();
                     pause();
                     break;
-                case 2:
+                case "2":
                     searchSong();
                     pause();
                     break;
-                case 3:
+                case "3":
                     System.out.println("**** 프로그램을 종료합니다 ****");
                     System.exit(0);
+                default:
+                    System.out.println("# 1 ~ 3 중 원하시는 메뉴의 번호를 입력해주세요.");
+                    pause();
             }
         }
 
