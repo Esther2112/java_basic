@@ -67,7 +67,7 @@
       <recent name="day10.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MapExample">
+  <component name="RunManager" selected="애플리케이션.Test">
     <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListExample" />
       <module name="java_basic" />
@@ -120,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.exception.ThrowsMain" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="friends.Test" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.exception.*" />
+          <option name="PATTERN" value="friends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.MapExample" />
         <item itemvalue="애플리케이션.SetExample" />
         <item itemvalue="애플리케이션.ListSearchQuiz" />
         <item itemvalue="애플리케이션.ListExample" />
-        <item itemvalue="애플리케이션.ThrowsMain" />
       </list>
     </recent_temporary>
   </component>
