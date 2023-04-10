@@ -1,5 +1,7 @@
 package day05.member;
 
+import java.time.LocalDate;
+
 import static day05.member.Gender.MALE;
 //역할: 1명의 회원정보를 묶어주는 역할
 //Java Bean(VO)
@@ -20,6 +22,9 @@ public class Member {
         this.gender = gender;
         this.age = age;
     }
+
+    //회원가입일
+    LocalDate regDate;
 
     //회원의 정보를 문자열로 만들어서 리턴하는 기능
     String inform(){
