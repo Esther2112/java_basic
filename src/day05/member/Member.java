@@ -7,12 +7,12 @@ import static day05.member.Gender.MALE;
 //Java Bean(VO)
 public class Member {
 
-    String email;
-    String password;
-    String memberName;
-    int memberId;
-    Gender gender;
-    int age;
+    public String email;
+    public String password;
+    public String memberName;
+    public int memberId;
+    public Gender gender;
+    public int age;
 
     public Member(String email, String password, String memberName, int memberId, Gender gender, int age) {
         this.email = email;
