@@ -6,6 +6,6 @@ public class VegePredicate implements Predicate<Dish> {
 
     @Override
     public boolean test(Dish dish) {
-        return dish.isVegeterian();
+        return dish.isVegetarian();
     }
 }

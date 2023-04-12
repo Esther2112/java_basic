@@ -3,7 +3,7 @@ package day13;
 public class Dish {
 
     private final String name; //요리이름
-    private final boolean vegeterian; //채식주의여부
+    private final boolean vegetarian; //채식주의여부
     private final int calories; //칼로리
     private final Type type; //요리 카테고리
 
@@ -11,9 +11,9 @@ public class Dish {
         MEAT, FISH, OTHER
     }
 
-    public Dish(String name, boolean vegeterian, int calories, Type type) {
+    public Dish(String name, boolean vegetarian, int calories, Type type) {
         this.name = name;
-        this.vegeterian = vegeterian;
+        this.vegetarian = vegetarian;
         this.calories = calories;
         this.type = type;
     }
@@ -22,8 +22,8 @@ public class Dish {
         return name;
     }
 
-    public boolean isVegeterian() {
-        return vegeterian;
+    public boolean isVegetarian() {
+        return vegetarian;
     }
 
     public int getCalories() {
@@ -32,5 +32,15 @@ public class Dish {
 
     public Type getType() {
         return type;
+    }
+
+    @Override
+    public String toString() {
+        return "Dish{" +
+                "name='" + name + '\'' +
+                ", vegetarian=" + vegetarian +
+                ", calories=" + calories +
+                ", type=" + type +
+                '}';
     }
 }

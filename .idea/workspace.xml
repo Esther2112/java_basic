@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java">
+    <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice1/RoomAvailability.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice1/Rooms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13/Filtering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13/Filtering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13/VegePredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13/VegePredicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <recent name="day10.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Filtering">
+  <component name="RunManager" selected="애플리케이션.Mapping">
     <configuration name="Filtering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day13.Filtering" />
       <module name="java_basic" />
@@ -86,12 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.collection.song.Main" />
+    <configuration name="Finding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.Finding" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.collection.song.*" />
+          <option name="PATTERN" value="day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.Mapping" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,19 +118,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day12.inner.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.inner.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.inner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Mapping" />
+        <item itemvalue="애플리케이션.Finding" />
         <item itemvalue="애플리케이션.Filtering" />
         <item itemvalue="애플리케이션.RoomAvailability" />
         <item itemvalue="애플리케이션.day12.lambda.Main" />
-        <item itemvalue="애플리케이션.day12.inner.Main" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681214483488</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="java stream">
+      <created>1681260562941</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681260562941</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +340,8 @@
     <MESSAGE value="java PlayListQuiz code revised" />
     <MESSAGE value="java Collection" />
     <MESSAGE value="java" />
-    <option name="LAST_COMMIT_MESSAGE" value="java" />
+    <MESSAGE value="java stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="java stream" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
