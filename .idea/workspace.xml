@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa150b72-3063-4b0b-ad01-399f2e6c846f" name="Changes" comment="java stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13/Filtering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13/Filtering.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day13/VegePredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13/VegePredicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +69,13 @@
       <recent name="day10.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Mapping">
-    <configuration name="Filtering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.Filtering" />
+  <component name="RunManager" selected="애플리케이션.day13.practice.Main">
+    <configuration name="Finding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.Finding" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day13.Comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Finding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.Finding" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.Comparator.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day13.Comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +101,19 @@
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="day13.Comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.Sorting" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
           <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -112,25 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoomAvailability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice1.RoomAvailability" />
+    <configuration name="day13.practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.practice.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day12.lambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.lambda.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.lambda.*" />
+          <option name="PATTERN" value="day13.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day13.practice.Main" />
+        <item itemvalue="애플리케이션.Sorting" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Mapping" />
         <item itemvalue="애플리케이션.Finding" />
-        <item itemvalue="애플리케이션.Filtering" />
-        <item itemvalue="애플리케이션.RoomAvailability" />
-        <item itemvalue="애플리케이션.day12.lambda.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681260562941</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="java stream">
+      <created>1681267660399</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681267660399</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
