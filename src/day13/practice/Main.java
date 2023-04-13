@@ -82,15 +82,17 @@ public class Main {
 
         makeLine();
         // 연습 7: 모든 거래에서 최고거래액은 얼마인가?
-        OptionalInt max = transactions.stream()
-                .mapToInt(d -> d.getValue())
-                .max();
+        int max = transactions.stream()
+                .mapToInt(Transaction::getValue)
+                .max()
+                .getAsInt();
         out.println("max = " + max);
 
         // 연습 8. 가장 작은 거래액을 가진 거래정보 탐색
-        OptionalInt min = transactions.stream()
-                .mapToInt(d -> d.getValue())
-                .min();
+        int min = transactions.stream()
+                .mapToInt(Transaction::getValue)
+                .min()
+                .getAsInt();
         out.println("min = " + min);
 
     }
